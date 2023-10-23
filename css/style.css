@@ -1,0 +1,29 @@
+#sfondo-titolo {
+    position: relative;
+    height: 120px;
+    background-image: url("../img/pattern.png");
+    background-color: rgba(0, 60, 255, 0.7)
+}
+
+#logo {
+    width: 180px;
+    position: absolute;
+    top: 45%;
+    left: 1%;
+}
+
+#firma {
+    font-size: 15px;
+}
+
+#booleaner {
+    color: dodgerblue;
+}
+
+#data {
+    font-size: 12px;
+}
+
+.didascalia {
+    font-size: 12px;
+}
