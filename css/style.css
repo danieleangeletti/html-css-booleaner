@@ -27,3 +27,61 @@
 .didascalia {
     font-size: 12px;
 }
+
+#lista {
+    padding-inline-start: 10px; /* come si allineano i pallini al paragrafo precedente? Io l'ho fatto a occhio */
+}
+
+.colonna-1 {
+    width: 25%;
+}
+
+.colonna-2 {
+    width: 25%;
+}
+
+.colonna-3 {
+    width: 50%;
+}
+
+#linea-0 {
+    background-color: dodgerblue;
+}
+
+#linea-1 {
+    background-color: aqua;
+}
+
+#linea-3 {
+    background-color: aqua;
+}
+
+#titolo-footer {
+    font-weight: bold;
+    color: gray;
+}
+
+#foto-piè-1 {
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/monitor.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#foto-piè-2 {
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/graph.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.titolo-video {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 6px;
+    left: 6px;
+}
