@@ -2,7 +2,8 @@
     position: relative;
     height: 120px;
     background-image: url("../img/pattern.png");
-    background-color: rgba(0, 60, 255, 0.7)
+    background-color: rgba(0, 60, 255, 0.7);
+    background-position: center;
 }
 
 #logo {
