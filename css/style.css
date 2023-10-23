@@ -37,6 +37,10 @@
     padding-inline-start: 10px; /* come si allineano i pallini al paragrafo precedente? Io l'ho fatto a occhio */
 }
 
+table {
+    border-collapse: collapse;
+}
+
 .colonna-1 {
     width: 25%;
 }
