@@ -1,16 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #sfondo-titolo {
-    position: relative;
     height: 120px;
     background-image: url("../img/pattern.png");
     background-color: rgba(0, 60, 255, 0.7);
     background-position: center;
+    margin-bottom: 10px;
 }
 
 #logo {
     width: 180px;
-    position: absolute;
-    top: 45%;
-    left: 1%;
+    padding-top: 60px;
+}
+
+#container-logo {
+    width: 80%;
+    margin: auto;
+}
+
+header h1 {
+    margin-bottom: 6px;
 }
 
 #firma {
@@ -23,10 +36,15 @@
 
 #data {
     font-size: 12px;
+    margin-bottom: 20px;
 }
 
 .didascalia {
     font-size: 12px;
+}
+
+.with-margin {
+    margin-bottom: 20px;
 }
 
 .evidenziatore {
